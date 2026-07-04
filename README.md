@@ -17,5 +17,5 @@ kubectl apply -f mongo-express-ingress
 ```
 Add `myapp.com` to \etc\hosts with ip given to the ingress created . (do `kubectl get ingress`)
 
-NOTE : In real production environment never upload your secrets on git repo their tools like Vault are used .
+NOTE : In real production environment never upload your secrets on git repo there are tools like Vault are used .
 Learned basics of Kubernetes from [TechWorld with Nana](https://youtu.be/X48VuDVv0do?si=iccivrbcDnvOGzOy)
